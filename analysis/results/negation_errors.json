@@ -1,0 +1,302 @@
+[
+  {
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snowboarder gliding over a field of snow",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snowmobile in a blizzard",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "Many people standing outside of a place talking to each other in front of a building that has a sign that says \"HI-POINTE.\"",
+    "hypothesis": "The group of people aren't inide of the building.",
+    "true": 0,
+    "pred": 2
+  },
+  {
+    "premise": "Several women are playing volleyball.",
+    "hypothesis": "This doesn't look like soccer",
+    "true": 0,
+    "pred": 2
+  },
+  {
+    "premise": "A person dressed in winter clothes poses with a snowman surrounded by snow covered landscape.",
+    "hypothesis": "A snowman is taking photos of his friends.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "Trays of freshly-baked pretzels are being loaded onto a delivery truck.",
+    "hypothesis": "Pretzels are poisonous.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A very dirty race car doing a burnout on some dirt.",
+    "hypothesis": "A car that has no tires.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "An Ambulance is passing a man wearing a bandanna and girl.",
+    "hypothesis": "The ambulance isn't stopped by heavy traffic",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "An Asian man is praying at a Buddhist temple.",
+    "hypothesis": "The man is making noise and bothering others.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A man in a gray shirt and green tie is working with his computer at his office desk.",
+    "hypothesis": "A man in a gray shirt is working on a novel.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "The man in the brown shirt is holding the hand of the long-haired child in front of a painting.",
+    "hypothesis": "A male has clothes on with his hand holding another young male in front of a painting.",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "A man in a colorful shirt and a lady in a white blouse sign copies of books for people.",
+    "hypothesis": "Two people sign copies of their latest novel.",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "Two skateboarders, one wearing a black t-shirt and the other wearing a white t-shirt, race each other.",
+    "hypothesis": "Two snowboarders race.",
+    "true": 0,
+    "pred": 2
+  },
+  {
+    "premise": "A fighter jet plane is landed outside Notre Dame cathedral at night.",
+    "hypothesis": "The fighter plane has no one inside of it.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "A small quaint town all lit up during the holiday season.",
+    "hypothesis": "The town has snow on the ground.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "The young boy in a red shirt and jeans resists his sister's request for water on the road.",
+    "hypothesis": "Kids don't share water.",
+    "true": 0,
+    "pred": 2
+  },
+  {
+    "premise": "A man playing a piano",
+    "hypothesis": "The man's hands are on the keys of a piano.",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "A boy in a red jacket and balck hat sliding on his knees down a snowy hill",
+    "hypothesis": "A man is playing in the snow.",
+    "true": 2,
+    "pred": 0
+  },
+  {
+    "premise": "A man getting a group of children to move around and have fun.",
+    "hypothesis": "A man encouraging children to have fun with one another as they look on.",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "Two women, standing at a fence, are each talking on their cellphones, while two men sitting on the opposite side of the fence are having a conversation.",
+    "hypothesis": "The two men and women are talking to people that they know.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "Taking a break to watch some TV",
+    "hypothesis": "Taking a neverending break",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A cheerful boy rides a makeshift sled down a snowy hill.",
+    "hypothesis": "Don't stock up and have fun with the sled",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A silhouette stands at the top of a bowling lane as the ball is about to impact the pins while neon lights race overhead.",
+    "hypothesis": "The bowler who just rolled in the bright, noisy alley is hoping for a strike.",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "A boy wearing jeans, standing on rocks in a river and throwing a stone.",
+    "hypothesis": "A boy with no shirt on throws rocks.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "A man wearing red ski pants, a black jacket, and a white helmet is skiing down a mountain.",
+    "hypothesis": "The man is near another person.",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "An Asian woman dressed in a colorful outfit laughing.",
+    "hypothesis": "The woman is not laughing.",
+    "true": 0,
+    "pred": 2
+  },
+  {
+    "premise": "A bald, black man wearing safety glasses and a long-sleeved black shirt is using a pick and hammer to sculpt a sizable rock into art.",
+    "hypothesis": "A black man with no hair is wearing his safety glasses around his neck.",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "Here is a picture of a man waiting for the bus to pick him up and he is hiding his face.",
+    "hypothesis": "The man doesn't want to be seen.",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "A man dressed in a light blue shirt dumping items from a bin into another bin, while standing in a room full of food donations.",
+    "hypothesis": "A man dumping items from a bin to another bin to throw it in dry place.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "There is a man poking a long stick up towards the ceiling.",
+    "hypothesis": "The man has no arms.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "A man in a blue shirt was arguing with a man in a green jacket and started to raise his fist in anger.",
+    "hypothesis": "a man argues with another who is making threatening jeastures",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "This person looks to be snowboarding on a very small pile of snow on a sunny cold day.",
+    "hypothesis": "Young snowboarder sizing up their next jump",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "This person looks to be snowboarding on a very small pile of snow on a sunny cold day.",
+    "hypothesis": "Ski season has now begun",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "Two people in coats kiss on the side of a road.",
+    "hypothesis": "Two married people avoid looking at one another.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A man is holding a child on his shoulders.",
+    "hypothesis": "The child is too big to ride on the mans shoulders now.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A canoe in the distance on a lake as seen from another canoe.",
+    "hypothesis": "A canoe goes over a waterfall.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A canoe in the distance on a lake as seen from another canoe.",
+    "hypothesis": "A canoe has come untied from the dock and is drifting.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "A shirtless man with his fishing boat.",
+    "hypothesis": "The man doesn't like his fishing boat.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "a blond woman kissing the cheek of a brown-haired man.",
+    "hypothesis": "This woman does not know the man she is pictured with.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A brown dog plays in a deep pile of snow.",
+    "hypothesis": "A brown dog is outside and it's snowing",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "The African American man protests against unlawful sex.",
+    "hypothesis": "The man protests in something he doesn't believe in.",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "Man recording a video of a woman.",
+    "hypothesis": "A woman is unknowing being recorded by a man.",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "A crowd of people in winter garb gather in the street against a backdrop of bare trees and snow.",
+    "hypothesis": "It is cold and snowy outside.",
+    "true": 1,
+    "pred": 0
+  },
+  {
+    "premise": "Two men are running down a road and carrying a canoe.",
+    "hypothesis": "The men are stealing a canoe",
+    "true": 1,
+    "pred": 2
+  },
+  {
+    "premise": "A person swimming in a swimming pool.",
+    "hypothesis": "a person is trying not to get wet",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A man laying down in middle of street during heavy traffic.",
+    "hypothesis": "The traffic was not to bad today the guy made it home early and took a nap.",
+    "true": 2,
+    "pred": 1
+  },
+  {
+    "premise": "A yellow car drives across a snowy path.",
+    "hypothesis": "A yellow car is driving in the snow in the winter.",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "A guy in a red jacket is snowboarding in midair.",
+    "hypothesis": "A guy is doing snowboard tricks",
+    "true": 0,
+    "pred": 1
+  },
+  {
+    "premise": "two women in lingerie with green feathers around waist",
+    "hypothesis": "Two women don't wear much clothing.",
+    "true": 0,
+    "pred": 2
+  },
+  {
+    "premise": "One lady is looking at a blue box while the shorter lady is looking at something on her phone at the grocery store.",
+    "hypothesis": "one lady looks at a product while another looks the product up on her phone",
+    "true": 1,
+    "pred": 0
+  }
+]

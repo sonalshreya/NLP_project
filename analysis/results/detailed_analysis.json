@@ -1,0 +1,9 @@
+{
+  "negation_accuracy": 0.8734939759036144,
+  "overall_accuracy": 0.8866042345276873,
+  "negation_gap": 0.01311025862407289,
+  "overlap_correct_mean": 0.42658476697340664,
+  "overlap_error_mean": 0.38361727647075833,
+  "length_correct_mean": 7.43203214695752,
+  "length_error_mean": 7.875224416517056
+}
