@@ -1,0 +1,40 @@
+# Model checkpoints (too large for git)
+*.bin
+*.pt
+*.pth
+pytorch_model.bin
+tf_model.h5
+model.safetensors
+
+# Outputs directory - keep structure but not models
+outputs/*/pytorch_model.bin
+outputs/*/model.safetensors
+outputs/**/checkpoint-*/
+outputs/*/training_args.bin
+
+# Data cache
+.cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large files
+*.tar.gz
+*.zip
+
+# Environment
+venv/
+env/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep these
+!outputs/*/.gitkeep
+!analysis/plots/.gitkeep
+!analysis/results/.gitkeep
