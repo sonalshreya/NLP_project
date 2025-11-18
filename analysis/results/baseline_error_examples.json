@@ -1,0 +1,802 @@
+[
+  {
+    "premise": "This church choir sings to the masses as they sing joyous songs from the book at a church.",
+    "hypothesis": "The church has cracks in the ceiling.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+    "hypothesis": "The woman is very happy.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "An old man with a package poses in front of an advertisement.",
+    "hypothesis": "A man walks by an ad.",
+    "true_label": 2,
+    "pred_label": 0,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A statue at a museum that no seems to be looking at.",
+    "hypothesis": "Tons of people are gathered around the statue.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A land rover is being driven across a river.",
+    "hypothesis": "A Land Rover is splashing water as it crosses a river.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A doctor is looking at a book",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A doctor is studying",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+    "hypothesis": "A man watches his daughter leap",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Male in a blue jacket decides to lay in the grass.",
+    "hypothesis": "The guy wearing a blue jacket is laying on the green grass",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "During calf roping a cowboy calls off his horse.",
+    "hypothesis": "A man ropes a calf successfully.",
+    "true_label": 2,
+    "pred_label": 0,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+    "hypothesis": "Two children are building a brick furnace.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "People jump over a mountain crevasse on a rope.",
+    "hypothesis": "Some people look visually afraid to jump.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snowboarder gliding over a field of snow",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snowmobile in a blizzard",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background.",
+    "hypothesis": "A man waits outside a garage.",
+    "true_label": 2,
+    "pred_label": 0,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A Ford car is making a right turn as 3 males are walking across the street behind the car.",
+    "hypothesis": "A sedan was turning a corner as walkers were crossing.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Three boys in white shirts are walking behind an older model Ford car.",
+    "hypothesis": "The boys are on the street",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Three girls blow out the candles of a cake made of Peeps.",
+    "hypothesis": "There are peeps in the garden.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A crowd of people looking up at 3 people on the edge of the roof of a building.",
+    "hypothesis": "The crowd on the ground is watching 3 people on the roof's edge.",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A person with a purple shirt is painting an image of a woman on a white wall.",
+    "hypothesis": "A woman paints a portrait of a person.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Many people standing outside of a place talking to each other in front of a building that has a sign that says \"HI-POINTE.\"",
+    "hypothesis": "The group of people aren't inide of the building.",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A man of the cloth puts a black substance on a man's forehead.",
+    "hypothesis": "The men are at church.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A person rolls down a hill riding a wagon as another watches.",
+    "hypothesis": "A child in a wagon rolls down a hill.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Six dogs swimming in a river.",
+    "hypothesis": "Six dogs swim across the river.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A bird is flapping its wings on the water.",
+    "hypothesis": "The duck is swimming in the lake.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A young boy wearing a red shirt and jeans stands in the middle of a field and throws a toy plane in the air.",
+    "hypothesis": "A young boy is playing in a feild.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "This child is on the library steps.",
+    "hypothesis": "The child is on the steps inside the library.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A newlywed couple laughing and talking amongst themselves.",
+    "hypothesis": "The couple just got married.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Several younger people sitting in front of a statue.",
+    "hypothesis": "several young people sitting outside",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Several younger people sitting in front of a statue.",
+    "hypothesis": "several young people are sitting in an auditorium",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A man, woman, and child get their picture taken in front of the mountains.",
+    "hypothesis": "A family on vacation is posing.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Four adults eat while sitting on a tile floor.",
+    "hypothesis": "Two couples eat food on a kitchen floor.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A person in orange clothing rests above a metro entrance.",
+    "hypothesis": "Someone is standing near a metro station.",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A guy wearing jeans and a hat is crouching on a handrail with a concrete embankment located in front of him.",
+    "hypothesis": "He is wearing a button-up shirt.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A group of people gathered at night watching an event.",
+    "hypothesis": "A group of humans are looking at the same direction.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "The American footballer in yellow catches the ball whilst under pressure from the payer in white.",
+    "hypothesis": "The football player is under duress.",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A person in a red shirt is mowing the grass with a green riding mower.",
+    "hypothesis": "A person in red is moving grass on a John Deer motor.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Group of people wearing black shirts riding in an open top vehicle.",
+    "hypothesis": "A group of people go down the road in a convertible.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Group of people wearing black shirts riding in an open top vehicle.",
+    "hypothesis": "Froends ride in an open top vehicle together.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Two men prepare a fish at a dock.",
+    "hypothesis": "Two men are cleaning their fish",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A biker races.",
+    "hypothesis": "The biker loses the race",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "People are on an escalator waiting to get to their destination while looking outside of the glass that makes up the wall.",
+    "hypothesis": "The people are going up on the escalator.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A boy is riding down the road between two cows.",
+    "hypothesis": "A boy rides a horse by two cows.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A birthday party for many little people to enjoy.",
+    "hypothesis": "Children enjoying a birthday party.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A birthday party for many little people to enjoy.",
+    "hypothesis": "Children at a birthday party.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Everyone on the street in the city seem to be busy doing their own thing.",
+    "hypothesis": "The people are watching what is happening.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Several women are playing volleyball.",
+    "hypothesis": "They women are hitting a ball with their arms",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Several women are playing volleyball.",
+    "hypothesis": "This doesn't look like soccer",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Two women's volleyball teams are competing against each other on a salmon-colored and turquoise court while a referee in black watches.",
+    "hypothesis": "12 ladies play volleyball",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "People are riding bicycles in the street, and they are all wearing helmets.",
+    "hypothesis": "A group of friends are grabbing their bikes, getting ready for the morning bike ride",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A middle eastern marketplace.",
+    "hypothesis": "A foreign store.",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Four men playing drums in very orange lighting while one of them is also drinking something out of a bottle.",
+    "hypothesis": "the men are musicians",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Young boys in green and blue jerseys kick around a soccer ball while other soccer games take place in the background.",
+    "hypothesis": "Young boys waiting for their soccer game.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A guy and a girl look down a mountain range.",
+    "hypothesis": "The people look into the sky.",
+    "true_label": 2,
+    "pred_label": 0,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A golden retriever nurses puppies.",
+    "hypothesis": "Puppies next to their mother",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A man wearing a red vest is walking past a black and green fence.",
+    "hypothesis": "The man wearing the vest is walking down the street.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "These girls are having a great time looking for seashells.",
+    "hypothesis": "The girls are happy.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A standing man talks to a seated woman while on some sort of vehicle.",
+    "hypothesis": "Three people are having a meeting.",
+    "true_label": 2,
+    "pred_label": 0,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Several men at a bar watch a sports game on the television.",
+    "hypothesis": "The men are at a baseball game.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Two roadside workers with lime green safety jackets, white hard hats and gloves on with construction cones in the background",
+    "hypothesis": "Two men are wearing lime green jackets.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Some dogs are running on a deserted beach.",
+    "hypothesis": "There is only one dog at the beach.",
+    "true_label": 2,
+    "pred_label": 0,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A crowded city street with lots of pedestrians.",
+    "hypothesis": "There alot of motorcyclists on this road.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A group of people are in a rowboat in the ocean surrounded by seagulls.",
+    "hypothesis": "A bunch of people are in a wooden object on the water.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A man holding a baby who is petting a pony.",
+    "hypothesis": "A man who kidnap a baby is petting a pony.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A young girl in a yellow top and a flowered skirt is standing on a blanket and biting on a toy.",
+    "hypothesis": "A girl is standing outside.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "many children play in the water.",
+    "hypothesis": "The children are at camp.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "a climber wearing a red headband is pulling himself up some gray rocks high above some green foliage.",
+    "hypothesis": "A climber pulls himself up 5000 feet up over a forest",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "a man with a red headband climbing a rock cliff looming over greenery.",
+    "hypothesis": "A man has on climbing gear.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "an old shoemaker in his factory",
+    "hypothesis": "The shoemaker is getting ready for his 16th birthday.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Four children are playing in some water.",
+    "hypothesis": "The children are doing chores.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Boys with their backs against an incoming wave.",
+    "hypothesis": "A group of people sit on the beach.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Four boys are about to be hit by an approaching wave.",
+    "hypothesis": "A giant wave is about to crash on some boys.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A hockey player in helmet.",
+    "hypothesis": "Players are wearing helmet.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A hockey player in helmet.",
+    "hypothesis": "They are playing hockey",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Man wearing blue bowing on floor in front of another man in blue bowing on floor with two other men wearing blue kneeling on same floor also.",
+    "hypothesis": "A man is wearing a blue shirt.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "Biker riding through the forest.",
+    "hypothesis": "Mountain biker competes in off-road race.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A white duck expanding its wings in the water.",
+    "hypothesis": "The duck is a rare breed, most thought to have been driven into extinction years ago.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A group of people stand near and on a large black square on the ground with some yellow writing on it.",
+    "hypothesis": "a group of people stand",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A crowd is watching a group of men in suits with briefcases walk in formation down the street led by a woman holding a sign.",
+    "hypothesis": "A group of people dressed as clowns stroll into the Bigtop Circus holding signs.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A carpenter is working on a roof at a house being built.",
+    "hypothesis": "A man is hammering the final shingle on a roof.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Two little boys wearing athletic jerseys are washing their hands in a public restroom.",
+    "hypothesis": "The boys had unclean hands.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Two little boys wearing athletic jerseys are washing their hands in a public restroom.",
+    "hypothesis": "They were playing soccer.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Two men wearing dirty clothing are sitting on a sidewalk with their dog and begging for money using a cardboard sign.",
+    "hypothesis": "These two illiterate men convinced their dog to write a panhandling sign for them.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A woman doing gymnastics, she is using the balance beam",
+    "hypothesis": "A woman is doing a handstand on the balance beam.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Six rescuers cooperate to place an injured man on a transport device in snowy, mountainous terrain.",
+    "hypothesis": "six people act to save a seventh who is injured",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A blond woman in a black shirt is standing behind a counter.",
+    "hypothesis": "The woman has her hair pulled back in a bun.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A man and a child are purchasing ice cream from a man with a hand pushed ice cream cart.",
+    "hypothesis": "People are buying food from a street vendor.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Five children playing soccer chase after a ball.",
+    "hypothesis": "There are ten total children playing.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A boy swims shirtless with a black and red bathing suit while a seagull sits on the sand.",
+    "hypothesis": "A boy swims while a seagull shits on the sand.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Here is a picture of people getting drunk at a house party.",
+    "hypothesis": "Some people are by the side of a swimming pool partying.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A variety of people are sitting around a tale doing craft projects.",
+    "hypothesis": "The people are creative.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A woman in black reviews a message as she walks to work.",
+    "hypothesis": "The woman in black is being fired via text message.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A pro-baseball pitcher sends a curve ball to his opponent while many fans relax and enjoy the game.",
+    "hypothesis": "A pitcher is playing baseball at a stadium",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "Three workers, with life vests and hard hats, on a boat hanging from cables over water.",
+    "hypothesis": "Three lifeguards are haning from the boar, trying to save the dog from drowning.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "Three workers, with life vests and hard hats, on a boat hanging from cables over water.",
+    "hypothesis": "4 fisherman are hanging over the boat, trying to pet the shark",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A female runner dressed in blue athletic wear is running in a competition, while spectators line the street.",
+    "hypothesis": "There are children in the streets.",
+    "true_label": 2,
+    "pred_label": 1,
+    "true_label_name": "Entailment",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A young man in a blue hoodie doing a flip off of a half-wall that is covered in graffiti.",
+    "hypothesis": "A young man does a flip off a wall and wares baggie clothes.",
+    "true_label": 1,
+    "pred_label": 2,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Entailment"
+  },
+  {
+    "premise": "A crowd wearing orange cheering for their team in a stadium.",
+    "hypothesis": "Fans cheering on their team at the big game.",
+    "true_label": 0,
+    "pred_label": 1,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Neutral"
+  },
+  {
+    "premise": "A worker peers out from atop a building under construction.",
+    "hypothesis": "A man is atop of a building.",
+    "true_label": 1,
+    "pred_label": 0,
+    "true_label_name": "Neutral",
+    "pred_label_name": "Contradiction"
+  },
+  {
+    "premise": "A person dressed in white and black winter clothing leaps a narrow, water-filled ditch from one frost-covered field to another, where a female dressed in black coat and pants awaits.",
+    "hypothesis": "The man in white and black is leaping.",
+    "true_label": 0,
+    "pred_label": 2,
+    "true_label_name": "Contradiction",
+    "pred_label_name": "Entailment"
+  }
+]
