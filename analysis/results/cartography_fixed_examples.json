@@ -1,0 +1,182 @@
+[
+  {
+    "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+    "hypothesis": "The woman is very happy.",
+    "true_label": "Contradiction",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Contradiction",
+    "has_negation": false,
+    "word_overlap": 0.4
+  },
+  {
+    "premise": "An old man with a package poses in front of an advertisement.",
+    "hypothesis": "A man walks by an ad.",
+    "true_label": "Entailment",
+    "baseline_pred": "Contradiction",
+    "cart_pred": "Entailment",
+    "has_negation": false,
+    "word_overlap": 0.5
+  },
+  {
+    "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+    "hypothesis": "Two children are building a brick furnace.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.42857142857142855
+  },
+  {
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snowboarder gliding over a field of snow",
+    "true_label": "Neutral",
+    "baseline_pred": "Contradiction",
+    "cart_pred": "Neutral",
+    "has_negation": true,
+    "word_overlap": 0.5714285714285714
+  },
+  {
+    "premise": "A man of the cloth puts a black substance on a man's forehead.",
+    "hypothesis": "The men are at church.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.2
+  },
+  {
+    "premise": "A person rolls down a hill riding a wagon as another watches.",
+    "hypothesis": "A child in a wagon rolls down a hill.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.5714285714285714
+  },
+  {
+    "premise": "Four adults eat while sitting on a tile floor.",
+    "hypothesis": "Two couples eat food on a kitchen floor.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.5
+  },
+  {
+    "premise": "A guy wearing jeans and a hat is crouching on a handrail with a concrete embankment located in front of him.",
+    "hypothesis": "He is wearing a button-up shirt.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.5
+  },
+  {
+    "premise": "A boy is riding down the road between two cows.",
+    "hypothesis": "A boy rides a horse by two cows.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.5714285714285714
+  },
+  {
+    "premise": "A man wearing a red vest is walking past a black and green fence.",
+    "hypothesis": "The man wearing the vest is walking down the street.",
+    "true_label": "Neutral",
+    "baseline_pred": "Contradiction",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.625
+  },
+  {
+    "premise": "Two roadside workers with lime green safety jackets, white hard hats and gloves on with construction cones in the background",
+    "hypothesis": "Two men are wearing lime green jackets.",
+    "true_label": "Contradiction",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Contradiction",
+    "has_negation": false,
+    "word_overlap": 0.42857142857142855
+  },
+  {
+    "premise": "Some dogs are running on a deserted beach.",
+    "hypothesis": "There is only one dog at the beach.",
+    "true_label": "Entailment",
+    "baseline_pred": "Contradiction",
+    "cart_pred": "Entailment",
+    "has_negation": false,
+    "word_overlap": 0.125
+  },
+  {
+    "premise": "a climber wearing a red headband is pulling himself up some gray rocks high above some green foliage.",
+    "hypothesis": "A climber pulls himself up 5000 feet up over a forest",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.4444444444444444
+  },
+  {
+    "premise": "Biker riding through the forest.",
+    "hypothesis": "Mountain biker competes in off-road race.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.16666666666666666
+  },
+  {
+    "premise": "A carpenter is working on a roof at a house being built.",
+    "hypothesis": "A man is hammering the final shingle on a roof.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.3333333333333333
+  },
+  {
+    "premise": "A blond woman in a black shirt is standing behind a counter.",
+    "hypothesis": "The woman has her hair pulled back in a bun.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.3
+  },
+  {
+    "premise": "Five children playing soccer chase after a ball.",
+    "hypothesis": "There are ten total children playing.",
+    "true_label": "Entailment",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Entailment",
+    "has_negation": false,
+    "word_overlap": 0.16666666666666666
+  },
+  {
+    "premise": "Three workers, with life vests and hard hats, on a boat hanging from cables over water.",
+    "hypothesis": "4 fisherman are hanging over the boat, trying to pet the shark",
+    "true_label": "Entailment",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Entailment",
+    "has_negation": false,
+    "word_overlap": 0.18181818181818182
+  },
+  {
+    "premise": "A young man in a blue hoodie doing a flip off of a half-wall that is covered in graffiti.",
+    "hypothesis": "A young man does a flip off a wall and wares baggie clothes.",
+    "true_label": "Neutral",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.45454545454545453
+  },
+  {
+    "premise": "A black man wearing a red belt and a white man wearing a blue belt are pictured in the act of practicing martial arts inside a building with a woman looking on in the background.",
+    "hypothesis": "The men are blackbelts.",
+    "true_label": "Entailment",
+    "baseline_pred": "Contradiction",
+    "cart_pred": "Entailment",
+    "has_negation": false,
+    "word_overlap": 0.5
+  }
+]

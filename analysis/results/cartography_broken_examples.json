@@ -1,0 +1,92 @@
+[
+  {
+    "premise": "A man looking over a bicycle's rear wheel in the maintenance garage with various tools visible in the background.",
+    "hypothesis": "A man repairs bicycles.",
+    "true_label": "Contradiction",
+    "baseline_pred": "Contradiction",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.5
+  },
+  {
+    "premise": "A guy riding a motorcycle near junk cars",
+    "hypothesis": "A man is sitting on a parked motorcycle waiting for his friend.",
+    "true_label": "Entailment",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.18181818181818182
+  },
+  {
+    "premise": "The flight attendant dressed in yellow demonstrates life vest usage.",
+    "hypothesis": "A flight attendant is standing in front of passengers.",
+    "true_label": "Neutral",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Contradiction",
+    "has_negation": false,
+    "word_overlap": 0.3333333333333333
+  },
+  {
+    "premise": "a boy in a red hooded top is smiling whilst looking away from his reflection.",
+    "hypothesis": "The boy doesn't want to see his reflection.",
+    "true_label": "Neutral",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Contradiction",
+    "has_negation": true,
+    "word_overlap": 0.375
+  },
+  {
+    "premise": "A person in orange clothing rests above a metro entrance.",
+    "hypothesis": "A person is sitting at a baseball game.",
+    "true_label": "Entailment",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.2857142857142857
+  },
+  {
+    "premise": "A little boy with a blue bike helmet and a woman in a green bike helmet are riding bikes down a street with other various bike riders.",
+    "hypothesis": "A group of people are changing a bike tire.",
+    "true_label": "Entailment",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.375
+  },
+  {
+    "premise": "A lady is helping another woman work in a silver compartment, which is most likely related to nurse-work.",
+    "hypothesis": "Two woman are trying to finish orders from a doctor",
+    "true_label": "Neutral",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Entailment",
+    "has_negation": false,
+    "word_overlap": 0.3
+  },
+  {
+    "premise": "Two homeless men dressed in gray sit against a wall with a sleeping dog on a purple leash.",
+    "hypothesis": "Two men own homes.",
+    "true_label": "Entailment",
+    "baseline_pred": "Entailment",
+    "cart_pred": "Neutral",
+    "has_negation": false,
+    "word_overlap": 0.5
+  },
+  {
+    "premise": "A variety of people are sitting around a tale doing craft projects.",
+    "hypothesis": "The people are unique.",
+    "true_label": "Neutral",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Contradiction",
+    "has_negation": false,
+    "word_overlap": 0.5
+  },
+  {
+    "premise": "A family walking with a soldier.",
+    "hypothesis": "A few people walk with a man in uniform.",
+    "true_label": "Neutral",
+    "baseline_pred": "Neutral",
+    "cart_pred": "Contradiction",
+    "has_negation": false,
+    "word_overlap": 0.25
+  }
+]
